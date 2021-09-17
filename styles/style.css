@@ -1,0 +1,16 @@
+body {
+  background-color: aliceblue;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 1000px;
+  margin: 20px;
+}
+/*# sourceMappingURL=style.css.map */
