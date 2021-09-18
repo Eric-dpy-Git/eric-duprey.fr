@@ -1,3 +1,39 @@
 header {
+  position: relative;
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.logo__box {
+  width: 200px;
+  height: 200px;
+  margin: 25px 0 0 0;
+  background-color: rgba($color: #000000, $alpha: 0.4);
+  border-radius: 50%;
+}
+.logo__img {
+  width: 100px;
+  height: 100px;
+  margin: 50px 0 0 0;
+}
+.title__box {
+  width: 300px;
+  height: 300px;
+  background-color: rgba($color: #000000, $alpha: 0.4);
+  border-radius: 50%;
+}
+
+h1 {
+  color: white;
+  margin-top: 60px;
+  font-family: Rock_salt;
+  font-size: 1.5em;
+}
+h2 {
+  color: white;
+  font-family: Rock_salt;
+  font-size: 0.5em;
 }

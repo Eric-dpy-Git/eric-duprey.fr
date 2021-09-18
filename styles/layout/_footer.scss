@@ -1,5 +1,19 @@
 footer {
-  background-color: $secondary;
-  height: 200px;
-  width: 1200px;
+  position: relative;
+  top: 80px;
+}
+
+.footer__box {
+  width: 220px;
+  transform: rotate(-50deg);
+}
+h3 {
+  color: white;
+  font-family: Rock_salt;
+  font-size: 0.8em;
+}
+@media screen and (max-width: 425px) {
+  .footer__box {
+    transform: rotate(50deg);
+  }
 }
