@@ -3,13 +3,18 @@
   src: url("../../fonts/RockSalt-Regular.ttf");
 }
 
+body {
+  background-color: #313030;
+}
+
 .background__image {
   width: 100%;
-  min-height: 1200px;
+  min-height: 1400px;
   position: absolute;
   left: 0px;
   top: 0px;
   z-index: 0;
+  opacity: 0.33;
 }
 
 .stretch {
@@ -48,6 +53,7 @@ header {
 .title__box {
   width: 300px;
   height: 300px;
+  margin: 30px 0 0 0;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 50%;
 }
@@ -72,8 +78,8 @@ footer {
 
 .footer__box {
   width: 220px;
-  -webkit-transform: rotate(-50deg);
-          transform: rotate(-50deg);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 h3 {
@@ -82,10 +88,31 @@ h3 {
   font-size: 0.8em;
 }
 
+@media screen and (max-width: 1024px) {
+  .footer__box {
+    -webkit-transform: rotate(-50deg);
+            transform: rotate(-50deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__box {
+    -webkit-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+  }
+}
+
 @media screen and (max-width: 425px) {
   .footer__box {
-    -webkit-transform: rotate(50deg);
-            transform: rotate(50deg);
+    -webkit-transform: rotate(-75deg);
+            transform: rotate(-75deg);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__box {
+    -webkit-transform: rotate(-75deg);
+            transform: rotate(-75deg);
   }
 }
 
@@ -145,7 +172,7 @@ ul li:nth-child(even):hover {
 
 /* https://freefrontend.com/css-3d-buttons/ */
 nav {
-  margin: 0;
+  margin: 100px 0 0 0;
   height: 50vh;
   display: -webkit-box;
   display: -ms-flexbox;
