@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+  color: white;
+}
 ul {
   padding: 0;
   list-style-type: none;
@@ -27,7 +31,7 @@ ul li:nth-child(odd) {
 }
 
 ul li:nth-child(even) {
-  background: linear-gradient(to left, rgb(5, 66, 5), rgb(70, 67, 67));
+  background: linear-gradient(to left, rgb(51, 110, 51), rgb(70, 67, 67));
   text-align: right;
   padding-right: 10%;
   transform: perspective(500px) rotateY(-45deg);
