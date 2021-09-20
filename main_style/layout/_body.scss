@@ -1,14 +1,17 @@
 body {
   background-color: rgb(49, 48, 48);
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .background__image {
   width: 100%;
-  min-height: 1450px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
+  height: 1000px;
+  /* min-height: 1450px; */
+  /* position: absolute; */
+  /* left: 0px;
+  top: 300px; */
   z-index: 0;
-  opacity: 0.33;
+  opacity: 1;
 }
 .stretch {
   width: 100%;
